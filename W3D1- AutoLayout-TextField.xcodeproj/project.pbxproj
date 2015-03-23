@@ -14,6 +14,7 @@
 		AF46A7F21A75DFB500E17590 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF46A7F11A75DFB500E17590 /* Images.xcassets */; };
 		AF46A7F51A75DFB600E17590 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF46A7F31A75DFB600E17590 /* LaunchScreen.xib */; };
 		AF46A8011A75DFB600E17590 /* W3D1__AutoLayout_TextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF46A8001A75DFB600E17590 /* W3D1__AutoLayout_TextFieldTests.m */; };
+		AFEADDF31A76A488004ABC87 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEADDF21A76A488004ABC87 /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AF46A7FA1A75DFB600E17590 /* W3D1- AutoLayout-TextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "W3D1- AutoLayout-TextFieldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF46A7FF1A75DFB600E17590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF46A8001A75DFB600E17590 /* W3D1__AutoLayout_TextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = W3D1__AutoLayout_TextFieldTests.m; sourceTree = "<group>"; };
+		AFEADDF11A76A488004ABC87 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		AFEADDF21A76A488004ABC87 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				AF46A7E91A75DFB500E17590 /* AppDelegate.m */,
 				AF46A7EB1A75DFB500E17590 /* ViewController.h */,
 				AF46A7EC1A75DFB500E17590 /* ViewController.m */,
+				AFEADDF11A76A488004ABC87 /* NextViewController.h */,
+				AFEADDF21A76A488004ABC87 /* NextViewController.m */,
 				AF46A7EE1A75DFB500E17590 /* Main.storyboard */,
 				AF46A7F11A75DFB500E17590 /* Images.xcassets */,
 				AF46A7F31A75DFB600E17590 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF46A7ED1A75DFB500E17590 /* ViewController.m in Sources */,
+				AFEADDF31A76A488004ABC87 /* NextViewController.m in Sources */,
 				AF46A7EA1A75DFB500E17590 /* AppDelegate.m in Sources */,
 				AF46A7E71A75DFB500E17590 /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				AF46A8061A75DFB600E17590 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF46A8071A75DFB600E17590 /* Build configuration list for PBXNativeTarget "W3D1- AutoLayout-TextFieldTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				AF46A8091A75DFB600E17590 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
