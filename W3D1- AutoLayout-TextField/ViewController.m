@@ -8,10 +8,12 @@
 
 #import "ViewController.h"
 #import "NextViewController.h"
+#import "User.h"
 
 @interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *passwordYConstraint;
+@property (weak, nonatomic) IBOutlet UITextField *usernameTextField;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *ySumitContraint;
 
 @end
 
@@ -20,6 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -30,8 +34,8 @@
 
 - (void)updateViewConstraints {
     [super updateViewConstraints];
-//    self.passwordYConstraint.constant = ([UIScreen mainScreen].bounds.size.height > 480.0f) ? 0 : -50;
-//    
+    self.ySumitContraint.constant = ([UIScreen mainScreen].bounds.size.height > 480.0f) ? 0 : 50;
+    
 //    NSLog(@"%f = [UIScreen mainScreen].bounds.size.height",[UIScreen mainScreen].bounds.size.height);
 //    NSLog(@"%f = [UIScreen mainScreen].bounds.size.width",[UIScreen mainScreen].bounds.size.width);
 
@@ -42,8 +46,16 @@
     if ([[segue identifier] isEqualToString:@"showNextVC"]) {
         //The segue is to the a View Controller called NextViewController
         NextViewController *nvc =  (NextViewController  *) segue.destinationViewController;
+
         
-        //nvc.nextLabel.text = @"Hello";
+        NSString *str = self.usernameTextField.text;
+        
+        User *u = [[User alloc] init];
+        u.username = self.usernameTextField.text;
+        nvc.user1 = u;
+        nvc.username = str;
+        
+        //NSLog(@"self.usernameTextField.text is %@", self.usernameTextField.text);
     }
 }
 

@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "User.h"
 
 @interface NextViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *nextLabel;
+
+
+@property (strong, nonatomic) NSString *username;
+@property (strong, nonatomic) User *user1;
 
 @end

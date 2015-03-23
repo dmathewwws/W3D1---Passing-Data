@@ -28,18 +28,27 @@
                                 <state key="normal" title="Submit">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="zhI-56-cFL" kind="show" identifier="showNextVC" id="jwj-nP-5vg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="vaO-91-9nu" secondAttribute="centerX" id="AiS-aP-2Lr"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="vaO-91-9nu" secondAttribute="trailing" constant="30" id="IyV-8D-wGz"/>
-                            <constraint firstItem="vaO-91-9nu" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="MLs-KQ-QV3"/>
-                            <constraint firstAttribute="centerX" secondItem="S1o-Df-BrX" secondAttribute="centerX" id="XTd-lO-haF"/>
-                            <constraint firstAttribute="centerY" secondItem="S1o-Df-BrX" secondAttribute="centerY" id="YRG-6p-ym4"/>
-                            <constraint firstItem="vaO-91-9nu" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" multiplier="0.5" id="h3b-eJ-ewu"/>
+                            <constraint firstAttribute="centerX" secondItem="S1o-Df-BrX" secondAttribute="centerX" id="0d8-Bh-oD4"/>
+                            <constraint firstAttribute="centerY" secondItem="S1o-Df-BrX" secondAttribute="centerY" id="FqH-KN-0eU">
+                                <variation key="heightClass=compact-widthClass=compact" constant="56"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="vaO-91-9nu" secondAttribute="centerX" id="Pw3-jV-Ots"/>
+                            <constraint firstItem="vaO-91-9nu" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="Uy0-zz-qzg"/>
+                            <constraint firstItem="vaO-91-9nu" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" multiplier="0.5" id="YcM-eY-MJl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vaO-91-9nu" secondAttribute="trailing" constant="30" id="aQO-2e-53R"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="usernameTextField" destination="vaO-91-9nu" id="3O4-Kg-dnF"/>
+                        <outlet property="ySumitContraint" destination="FqH-KN-0eU" id="Hze-XG-HU7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -75,7 +84,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2dX-Iw-Yuo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1084" y="251"/>
+            <point key="canvasLocation" x="1085" y="308"/>
         </scene>
     </scenes>
 </document>

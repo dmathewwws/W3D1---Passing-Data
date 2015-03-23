@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF1A68241AC0929000E94691 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A68231AC0929000E94691 /* User.m */; };
 		AF46A7E71A75DFB500E17590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF46A7E61A75DFB500E17590 /* main.m */; };
 		AF46A7EA1A75DFB500E17590 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF46A7E91A75DFB500E17590 /* AppDelegate.m */; };
 		AF46A7ED1A75DFB500E17590 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF46A7EC1A75DFB500E17590 /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF1A68221AC0929000E94691 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		AF1A68231AC0929000E94691 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		AF46A7E11A75DFB500E17590 /* W3D1- AutoLayout-TextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "W3D1- AutoLayout-TextField.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF46A7E51A75DFB500E17590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF46A7E61A75DFB500E17590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				AF46A7E91A75DFB500E17590 /* AppDelegate.m */,
 				AF46A7EB1A75DFB500E17590 /* ViewController.h */,
 				AF46A7EC1A75DFB500E17590 /* ViewController.m */,
+				AF1A68221AC0929000E94691 /* User.h */,
+				AF1A68231AC0929000E94691 /* User.m */,
 				AFEADDF11A76A488004ABC87 /* NextViewController.h */,
 				AFEADDF21A76A488004ABC87 /* NextViewController.m */,
 				AF46A7EE1A75DFB500E17590 /* Main.storyboard */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1A68241AC0929000E94691 /* User.m in Sources */,
 				AF46A7ED1A75DFB500E17590 /* ViewController.m in Sources */,
 				AFEADDF31A76A488004ABC87 /* NextViewController.m in Sources */,
 				AF46A7EA1A75DFB500E17590 /* AppDelegate.m in Sources */,
